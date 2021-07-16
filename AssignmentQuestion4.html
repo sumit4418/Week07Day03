@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="dd">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+
+    <script type="text/javascript">
+    
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="row" >
+            <div class="col-sm-6">
+                <h1> Delivery Address</h1>
+                <form >
+                    
+                    <label for="username">House Address</label>
+                    <input id="add">
+
+                    <label for="phonenumber">Village/City</label>
+                    <input  id="add1">
+
+                    <label for="PIN">PIN</label>
+                    <input id="add2">
+
+                    <label for="Email">Email Addres </label>
+                    <input id="add3">
+
+                    <label for="Country">Country</label>
+                    <select  id="add4">
+                        <option value="" >INDIA</option>
+                        <option value="" >USA</option>
+                        <option value="" >UAE</option>
+                    </select>
+
+                    <label for="State">State</label>
+                    <select  id="add5">
+                        <option value="" >MAHARASTRA</option>
+                        <option value="" >KARNATAKA</option>
+                    </select>
+                    <br/>
+                        <input id="add12">Billing address is same as Delivery address.
+                    <br/>
+                    <button id="submit">Submit</button>
+
+
+                
+
+                  
+
+                 
+                
+            
+                </form>
+            </div>
+
+                <div class="col-sm-6">
+                   <h1> Billing Address</h1>
+                    <form id="form" >
+                        <label for="username">House Address</label>
+                        <input id="add6">
+    
+                        <label for="phonenumber">Village/City</label>
+                        <input  id="add7">
+    
+                        <label for="PIN">PIN</label>
+                        <input id="add8">
+    
+                        <label for="Email">Email Addres </label>
+                        <input id="add9">
+    
+                        <label for="Country">Country</label>
+                        <select  id="add10">
+                            <option value="" >INDIA</option>
+                            <option value="" >USA</option>
+                            <option value="" >UAE</option>
+                        </select>
+    
+                        <label for="State">State</label>
+                        <select  id="add11">
+                            <option value="" >MAHARASTRA</option>
+                            <option value="" >KARNATAKA</option>
+                        </select>
+                        
+                        <br>
+                        <button id="submit1">Submit</button>
+                
+                    </form>
+                </div>
+            
+        </div>
+
+    </div>
+                <script type="text/javascript">
+              let  fill = document.getElementById("add").value="Plot-121 Nagesh Nagar";
+                 fill = document.getElementById("add");
+                
+                    fill.setAttribute("type", "text");
+                    fill.setAttribute( "class", "form-control");
+
+                     fill = document.getElementById("add1");
+                fill.setAttribute("type", "text");
+                fill.setAttribute( "class", "form-control");
+               
+                fill = document.getElementById("add2").value="591128";
+                fill = document.getElementById("add2")
+                fill.setAttribute("type", "text");
+                fill.setAttribute( "class", "form-control");
+
+                fill = document.getElementById("add3");
+                fill.setAttribute("type", "text");
+                fill.setAttribute( "class", "form-control");
+                fill.setAttribute( "placeholder", "email");
+
+                fill = document.getElementById("add4");
+                    fill.setAttribute("class", "form-control");
+                    fill.setAttribute("value", "India");
+                    fill.style.width="150px"
+
+                fill = document.getElementById("add5");
+                    fill.setAttribute("class", "form-control");
+                    fill.setAttribute("value", "");
+                    fill.style.width="150px"
+
+
+                let btn = document.getElementById("submit");
+                    btn.setAttribute("type", "button");
+                    btn.setAttribute("class", "btn");  
+                    btn.setAttribute("class", "btn-primary");
+                    //second form
+                      
+                 fill = document.getElementById("add6");
+                    fill.setAttribute("type", "text");
+                    fill.setAttribute( "class", "form-control");
+
+                     fill = document.getElementById("add7");
+                fill.setAttribute("type", "text");
+                fill.setAttribute( "class", "form-control");
+               
+                fill = document.getElementById("add8").value="591128";
+                fill = document.getElementById("add8")
+                fill.setAttribute("type", "text");
+                fill.setAttribute( "class", "form-control");
+
+                fill = document.getElementById("add9");
+                fill.setAttribute("type", "text");
+                fill.setAttribute( "class", "form-control");
+                fill.setAttribute( "placeholder", "email");
+
+                fill = document.getElementById("add10");
+                    fill.setAttribute("class", "form-control");
+                    fill.setAttribute("value", "India");
+                    fill.style.width="150px"
+
+                fill = document.getElementById("add11");
+                    fill.setAttribute("class", "form-control");
+                    fill.setAttribute("value", "");
+                    fill.style.width="150px"
+
+                    btn = document.getElementById("submit1");
+                    btn.setAttribute("type", "button");
+                    btn.setAttribute("class", "btn");  
+                    btn.setAttribute("class", "btn-primary");
+
+                    fill = document.getElementById("add12");
+                    fill.setAttribute("type", "checkbox");
+                
+
+                 
+               
+              
+                
+                </script>
+         
+    
+</body>
+
+
+</html>
